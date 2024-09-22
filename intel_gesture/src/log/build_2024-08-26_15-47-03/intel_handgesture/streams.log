@@ -1,0 +1,58 @@
+[0.954s] Invoking command in '/home/yvonne/intel_gesture/src/intel_handgesture': PYTHONPATH=/home/yvonne/intel_gesture/src/build/intel_handgesture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/intel_handgesture build --build-base /home/yvonne/intel_gesture/src/build/intel_handgesture/build install --record /home/yvonne/intel_gesture/src/build/intel_handgesture/install.log --single-version-externally-managed install_data
+[1.276s] running egg_info
+[1.276s] creating ../build/intel_handgesture/intel_handgesture.egg-info
+[1.277s] writing ../build/intel_handgesture/intel_handgesture.egg-info/PKG-INFO
+[1.277s] writing dependency_links to ../build/intel_handgesture/intel_handgesture.egg-info/dependency_links.txt
+[1.277s] writing entry points to ../build/intel_handgesture/intel_handgesture.egg-info/entry_points.txt
+[1.278s] writing requirements to ../build/intel_handgesture/intel_handgesture.egg-info/requires.txt
+[1.278s] writing top-level names to ../build/intel_handgesture/intel_handgesture.egg-info/top_level.txt
+[1.278s] writing manifest file '../build/intel_handgesture/intel_handgesture.egg-info/SOURCES.txt'
+[1.280s] reading manifest file '../build/intel_handgesture/intel_handgesture.egg-info/SOURCES.txt'
+[1.281s] writing manifest file '../build/intel_handgesture/intel_handgesture.egg-info/SOURCES.txt'
+[1.281s] running build
+[1.281s] running build_py
+[1.281s] creating /home/yvonne/intel_gesture/src/build/intel_handgesture/build
+[1.282s] creating /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib
+[1.282s] creating /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture
+[1.282s] copying intel_handgesture/realsense_pub.py -> /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture
+[1.282s] copying intel_handgesture/__init__.py -> /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture
+[1.282s] copying intel_handgesture/hand_gesture.py -> /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture
+[1.283s] copying intel_handgesture/realsense_sub.py -> /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture
+[1.283s] copying intel_handgesture/gripper_controller.py -> /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture
+[1.283s] creating /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/utils
+[1.283s] copying intel_handgesture/utils/__init__.py -> /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/utils
+[1.283s] copying intel_handgesture/utils/cvfpscalc.py -> /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/utils
+[1.284s] creating /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/model
+[1.284s] copying intel_handgesture/model/__init__.py -> /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/model
+[1.284s] running install
+[1.284s] running install_lib
+[1.285s] creating /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture
+[1.285s] copying /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/realsense_pub.py -> /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture
+[1.285s] copying /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/__init__.py -> /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture
+[1.286s] copying /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/hand_gesture.py -> /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture
+[1.286s] copying /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/realsense_sub.py -> /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture
+[1.286s] creating /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/utils
+[1.286s] copying /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/utils/__init__.py -> /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/utils
+[1.286s] copying /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/utils/cvfpscalc.py -> /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/utils
+[1.286s] copying /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/gripper_controller.py -> /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture
+[1.287s] creating /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/model
+[1.287s] copying /home/yvonne/intel_gesture/src/build/intel_handgesture/build/lib/intel_handgesture/model/__init__.py -> /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/model
+[1.287s] byte-compiling /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/realsense_pub.py to realsense_pub.cpython-310.pyc
+[1.288s] byte-compiling /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/__init__.py to __init__.cpython-310.pyc
+[1.289s] byte-compiling /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/hand_gesture.py to hand_gesture.cpython-310.pyc
+[1.293s] byte-compiling /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/realsense_sub.py to realsense_sub.cpython-310.pyc
+[1.294s] byte-compiling /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/utils/__init__.py to __init__.cpython-310.pyc
+[1.294s] byte-compiling /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/utils/cvfpscalc.py to cvfpscalc.cpython-310.pyc
+[1.295s] byte-compiling /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/gripper_controller.py to gripper_controller.cpython-310.pyc
+[1.295s] byte-compiling /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture/model/__init__.py to __init__.cpython-310.pyc
+[1.296s] running install_data
+[1.296s] creating /home/yvonne/intel_gesture/src/install/intel_handgesture/share/ament_index
+[1.296s] creating /home/yvonne/intel_gesture/src/install/intel_handgesture/share/ament_index/resource_index
+[1.296s] creating /home/yvonne/intel_gesture/src/install/intel_handgesture/share/ament_index/resource_index/packages
+[1.296s] copying resource/intel_handgesture -> /home/yvonne/intel_gesture/src/install/intel_handgesture/share/ament_index/resource_index/packages
+[1.297s] copying package.xml -> /home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture
+[1.297s] running install_egg_info
+[1.298s] Copying ../build/intel_handgesture/intel_handgesture.egg-info to /home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages/intel_handgesture-0.0.0-py3.10.egg-info
+[1.299s] running install_scripts
+[1.320s] writing list of installed files to '/home/yvonne/intel_gesture/src/build/intel_handgesture/install.log'
+[1.353s] Invoked command in '/home/yvonne/intel_gesture/src/intel_handgesture' returned '0': PYTHONPATH=/home/yvonne/intel_gesture/src/build/intel_handgesture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/intel_handgesture build --build-base /home/yvonne/intel_gesture/src/build/intel_handgesture/build install --record /home/yvonne/intel_gesture/src/build/intel_handgesture/install.log --single-version-externally-managed install_data

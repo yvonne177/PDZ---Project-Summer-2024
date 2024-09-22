@@ -1,0 +1,152 @@
+[0.145s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.145s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7be31cc3fb20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7be31cc3f1f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7be31cc3f1f0>>, mixin_verb=('build',))
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.356s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yvonne/intel_gesture/src'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(gesture_control) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(gesture_control) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(gesture_control) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(gesture_control) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(gesture_control) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(gesture_control) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(gesture_control) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(gesture_control) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(gesture_control) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'gesture_control' with type 'ros.ament_cmake' and name 'gesture_control'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(intel_handgesture) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(intel_handgesture) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(intel_handgesture) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(intel_handgesture) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(intel_handgesture) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(intel_handgesture) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(intel_handgesture) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(intel_handgesture) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(intel_handgesture) by extension 'ros'
+[0.373s] DEBUG:colcon.colcon_core.package_identification:Package 'intel_handgesture' with type 'ros.ament_python' and name 'intel_handgesture'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.411s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/yvonne/franka_ros2_ws/install
+[0.412s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'gesture_control' build argument 'cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'gesture_control' build argument 'cmake_target' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'gesture_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'gesture_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'gesture_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'gesture_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'gesture_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'gesture_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'gesture_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'gesture_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yvonne/intel_gesture/src/build/gesture_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yvonne/intel_gesture/src/install/gesture_control', 'merge_install': False, 'path': '/home/yvonne/intel_gesture/src/gesture_control', 'symlink_install': False, 'test_result_base': None}
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'intel_handgesture' build argument 'cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'intel_handgesture' build argument 'cmake_target' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'intel_handgesture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'intel_handgesture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'intel_handgesture' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'intel_handgesture' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'intel_handgesture' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'intel_handgesture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'intel_handgesture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'intel_handgesture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yvonne/intel_gesture/src/build/intel_handgesture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yvonne/intel_gesture/src/install/intel_handgesture', 'merge_install': False, 'path': '/home/yvonne/intel_gesture/src/intel_handgesture', 'symlink_install': False, 'test_result_base': None}
+[0.498s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.499s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yvonne/intel_gesture/src/gesture_control' with build type 'ament_cmake'
+[0.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yvonne/intel_gesture/src/gesture_control'
+[0.502s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.508s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yvonne/intel_gesture/src/intel_handgesture' with build type 'ament_python'
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('intel_handgesture', 'ament_prefix_path')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/hook/ament_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/hook/ament_prefix_path.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/hook/ament_prefix_path.sh'
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yvonne/intel_gesture/src/build/gesture_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yvonne/intel_gesture/src/gesture_control -DCMAKE_INSTALL_PREFIX=/home/yvonne/intel_gesture/src/install/gesture_control
+[0.883s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yvonne/intel_gesture/src/intel_handgesture'
+[0.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yvonne/intel_gesture/src/intel_handgesture': PYTHONPATH=/home/yvonne/intel_gesture/src/build/intel_handgesture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/intel_handgesture build --build-base /home/yvonne/intel_gesture/src/build/intel_handgesture/build install --record /home/yvonne/intel_gesture/src/build/intel_handgesture/install.log --single-version-externally-managed install_data
+[1.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yvonne/intel_gesture/src/intel_handgesture' returned '0': PYTHONPATH=/home/yvonne/intel_gesture/src/build/intel_handgesture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/intel_handgesture build --build-base /home/yvonne/intel_gesture/src/build/intel_handgesture/build install --record /home/yvonne/intel_gesture/src/build/intel_handgesture/install.log --single-version-externally-managed install_data
+[1.867s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/intel_handgesture' for CMake module files
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/intel_handgesture' for CMake config files
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/intel_handgesture/lib'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/intel_handgesture/bin'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/intel_handgesture/lib/pkgconfig/intel_handgesture.pc'
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/intel_handgesture/lib/python3.10/site-packages'
+[1.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('intel_handgesture', 'pythonpath')
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/hook/pythonpath.ps1'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/hook/pythonpath.dsv'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/hook/pythonpath.sh'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/intel_handgesture/bin'
+[1.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(intel_handgesture)
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/package.ps1'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/package.dsv'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/package.sh'
+[1.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/package.bash'
+[1.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/yvonne/intel_gesture/src/install/intel_handgesture/share/intel_handgesture/package.zsh'
+[1.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yvonne/intel_gesture/src/install/intel_handgesture/share/colcon-core/packages/intel_handgesture)
+[2.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yvonne/intel_gesture/src/build/gesture_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yvonne/intel_gesture/src/gesture_control -DCMAKE_INSTALL_PREFIX=/home/yvonne/intel_gesture/src/install/gesture_control
+[2.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gesture_control)
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/gesture_control' for CMake module files
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/gesture_control' for CMake config files
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/gesture_control/bin'
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/gesture_control/lib/pkgconfig/gesture_control.pc'
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/gesture_control/lib/python3.10/site-packages'
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/yvonne/intel_gesture/src/install/gesture_control/bin'
+[2.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/yvonne/intel_gesture/src/install/gesture_control/share/gesture_control/package.ps1'
+[2.292s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yvonne/intel_gesture/src/install/gesture_control/share/gesture_control/package.dsv'
+[2.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/yvonne/intel_gesture/src/install/gesture_control/share/gesture_control/package.sh'
+[2.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/yvonne/intel_gesture/src/install/gesture_control/share/gesture_control/package.bash'
+[2.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/yvonne/intel_gesture/src/install/gesture_control/share/gesture_control/package.zsh'
+[2.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yvonne/intel_gesture/src/install/gesture_control/share/colcon-core/packages/gesture_control)
+[2.303s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.304s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.311s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.328s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yvonne/intel_gesture/src/install/local_setup.ps1'
+[2.330s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yvonne/intel_gesture/src/install/_local_setup_util_ps1.py'
+[2.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yvonne/intel_gesture/src/install/setup.ps1'
+[2.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yvonne/intel_gesture/src/install/local_setup.sh'
+[2.336s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yvonne/intel_gesture/src/install/_local_setup_util_sh.py'
+[2.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yvonne/intel_gesture/src/install/setup.sh'
+[2.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yvonne/intel_gesture/src/install/local_setup.bash'
+[2.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yvonne/intel_gesture/src/install/setup.bash'
+[2.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yvonne/intel_gesture/src/install/local_setup.zsh'
+[2.343s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yvonne/intel_gesture/src/install/setup.zsh'

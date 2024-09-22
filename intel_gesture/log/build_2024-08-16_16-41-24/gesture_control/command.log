@@ -1,0 +1,2 @@
+Invoking command in '/home/yvonne/intel_gesture/build/gesture_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yvonne/intel_gesture/src/gesture_control -DCMAKE_INSTALL_PREFIX=/home/yvonne/intel_gesture/install/gesture_control
+Invoked command in '/home/yvonne/intel_gesture/build/gesture_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yvonne/intel_gesture/src/gesture_control -DCMAKE_INSTALL_PREFIX=/home/yvonne/intel_gesture/install/gesture_control
